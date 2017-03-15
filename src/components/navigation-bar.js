@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HeaderBar(props) {
+export default function NavigationBar(props) {
     const links = props.links.map((link, index) => (
         <li key={index}>
             <a href={link.href}>
